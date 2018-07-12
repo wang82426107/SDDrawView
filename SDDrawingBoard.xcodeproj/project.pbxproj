@@ -8,24 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		E13E66BA20F43C6D004852A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E66B920F43C6D004852A3 /* AppDelegate.m */; };
-		E13E66BD20F43C6D004852A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E66BC20F43C6D004852A3 /* ViewController.m */; };
 		E13E66C020F43C6D004852A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13E66BE20F43C6D004852A3 /* Main.storyboard */; };
 		E13E66C220F43C6F004852A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13E66C120F43C6F004852A3 /* Assets.xcassets */; };
 		E13E66C520F43C6F004852A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13E66C320F43C6F004852A3 /* LaunchScreen.storyboard */; };
 		E13E66C820F43C6F004852A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E66C720F43C6F004852A3 /* main.m */; };
+		E13E66D220F43D2B004852A3 /* SDBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E66CF20F43D2B004852A3 /* SDBezierPath.m */; };
+		E13E66D320F43D2B004852A3 /* SDDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E66D120F43D2B004852A3 /* SDDrawView.m */; };
+		E1E81DEB20F6FCE900C22ACE /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E81DE920F6FCE900C22ACE /* UIImage+Color.m */; };
+		E1E81DEE20F7138900C22ACE /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E81DED20F7138900C22ACE /* DrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E13E66B520F43C6D004852A3 /* SDDrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDDrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13E66B820F43C6D004852A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E13E66B920F43C6D004852A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E13E66BB20F43C6D004852A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E13E66BC20F43C6D004852A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E13E66BF20F43C6D004852A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E13E66C120F43C6F004852A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E13E66C420F43C6F004852A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E13E66C620F43C6F004852A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E13E66C720F43C6F004852A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E13E66CE20F43D2B004852A3 /* SDBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBezierPath.h; sourceTree = "<group>"; };
+		E13E66CF20F43D2B004852A3 /* SDBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBezierPath.m; sourceTree = "<group>"; };
+		E13E66D020F43D2B004852A3 /* SDDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDrawView.h; sourceTree = "<group>"; };
+		E13E66D120F43D2B004852A3 /* SDDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDDrawView.m; sourceTree = "<group>"; };
+		E1E81DE920F6FCE900C22ACE /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		E1E81DEA20F6FCE900C22ACE /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		E1E81DEC20F7138900C22ACE /* DrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		E1E81DED20F7138900C22ACE /* DrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,11 @@
 			children = (
 				E13E66B820F43C6D004852A3 /* AppDelegate.h */,
 				E13E66B920F43C6D004852A3 /* AppDelegate.m */,
-				E13E66BB20F43C6D004852A3 /* ViewController.h */,
-				E13E66BC20F43C6D004852A3 /* ViewController.m */,
+				E1E81DEC20F7138900C22ACE /* DrawViewController.h */,
+				E1E81DED20F7138900C22ACE /* DrawViewController.m */,
+				E1E81DEA20F6FCE900C22ACE /* UIImage+Color.h */,
+				E1E81DE920F6FCE900C22ACE /* UIImage+Color.m */,
+				E13E66D420F43D4B004852A3 /* SDDrawView */,
 				E13E66BE20F43C6D004852A3 /* Main.storyboard */,
 				E13E66C120F43C6F004852A3 /* Assets.xcassets */,
 				E13E66C320F43C6F004852A3 /* LaunchScreen.storyboard */,
@@ -69,6 +81,17 @@
 				E13E66C720F43C6F004852A3 /* main.m */,
 			);
 			path = SDDrawingBoard;
+			sourceTree = "<group>";
+		};
+		E13E66D420F43D4B004852A3 /* SDDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				E13E66D020F43D2B004852A3 /* SDDrawView.h */,
+				E13E66D120F43D2B004852A3 /* SDDrawView.m */,
+				E13E66CE20F43D2B004852A3 /* SDBezierPath.h */,
+				E13E66CF20F43D2B004852A3 /* SDBezierPath.m */,
+			);
+			path = SDDrawView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E13E66BD20F43C6D004852A3 /* ViewController.m in Sources */,
+				E13E66D320F43D2B004852A3 /* SDDrawView.m in Sources */,
+				E1E81DEE20F7138900C22ACE /* DrawViewController.m in Sources */,
 				E13E66C820F43C6F004852A3 /* main.m in Sources */,
+				E1E81DEB20F6FCE900C22ACE /* UIImage+Color.m in Sources */,
+				E13E66D220F43D2B004852A3 /* SDBezierPath.m in Sources */,
 				E13E66BA20F43C6D004852A3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83P3V4T3D;
 				INFOPLIST_FILE = SDDrawingBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83P3V4T3D;
 				INFOPLIST_FILE = SDDrawingBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
